@@ -1,0 +1,65 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+
+/* Strength meter */
+.strength-meter {
+    height: 10px;
+    width: 100%;
+    background: #ccc;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#strength-bar {
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s;
+    
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    background-color: #9900ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #b30000;
+}
