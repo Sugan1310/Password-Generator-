@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.viwepage{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: azure;
+}
+.inbox{
+    width: 400px; 
+    height: 25px;
+    text-align: center;
+}
+
+.name{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 50px;
+    color: aliceblue;
+    }
+
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+    .s_title{
+        font-size: 4rem;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .s_paragra{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .genen_P{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ep{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5px;
+    }
+    
+    .genen_P button {
+        width: 140px;
+        
+        padding: 10px;
+        margin-right: 20px;
+        font-size: 16px;
+        background-color: #9747ff;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    .genen_P button:hover {
+        background-color: #e84118;
+    }
+    
+.sp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.spp{
+    color: white;
+
+}
