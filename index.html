@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator(4 Algorithms)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="viwepage">
+        <div class="titlegens">
+            <br>
+            <h1 class="s_title">PaSswOrD GeN3R@ToR</h1><br>
+            <br><br>
+            <div class="para">
+                <h3 class="s_paragra">Most Secure Password Gen Algo...</h3>
+                <img class="img" src="R.png" alt="unlock" width="50px" height="40px">
+            </div>
+        </div><br>
+
+        <div class="condiv">
+            <div class="sliderdiv">
+                Enter Length of Password: <br>
+                <input class="lenbox" type="number" placeholder="Password Length" class="Length" id="lennumber">
+
+            </div>
+        </div><br>
+        <div class="genen_P">
+            <div class="ep">
+                <button onclick="createpwd()">Generate Password</button>
+                <input class="inbox" type="text" id="pwd" readonly><br><br>
+            </div>
+            <div class="ep">
+                <button onclick="encryptAesPassword()">Encrypt AES</button>
+                <input class="inbox" type="text" id="encryptedaesPassword" readonly> <br><br>
+            </div>
+            <div class="ep">
+                <button onclick="encryptDesPassword()">Encrypt DES</button>
+                <input class="inbox" type="text" id="encrypteddesPassword" readonly><br><br>
+            </div>
+            <div class="ep">
+                <button onclick="encryptShaPassword()">Encrypt SHA</button>
+                <input class="inbox" type="text" id="encryptedshaPassword" readonly><br><br>
+            </div>
+            <div class="ep">
+                <button onclick="encryptCaesarPassword()">Caesar Cipher</button>
+                <input class="inbox" type="text" id="encryptedCaesarPassword" readonly><br><br>
+            </div>
+            <div class="sp">
+                <a class="spp" href="smple.html">STRENGHT CHECKER</a>
+            </div>
+        </div>
+        <div class="name" ;>
+            Sugan Malar saranraj<br>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
+</body>
+
+</html>
